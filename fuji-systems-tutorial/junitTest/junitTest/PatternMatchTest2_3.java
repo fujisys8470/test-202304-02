@@ -181,5 +181,7 @@ class PatternMatchTest2_3 {
 		assertFalse(m2_1.find());
 		Matcher m2_2 = p2.matcher(target2);
 		assertFalse(m2_2.find());
+		Matcher m2_3 = p2.matcher(target3);
+		assertFalse(!m2_3.find());
 	}
 }
